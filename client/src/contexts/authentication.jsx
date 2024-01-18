@@ -7,6 +7,7 @@ const AuthContext = React.createContext();
 
 function AuthProvider(props) {
   const navigate = { useNavigate };
+
   const [state, setState] = useState({
     loading: null,
     error: null,
